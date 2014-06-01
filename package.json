@@ -1,0 +1,26 @@
+{
+  "name": "light-search",
+  "version": "0.0.1",
+  "description": "LightSearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SmartCircle/LightSearch.git"
+  },
+  "keywords": [
+    "light"
+  ],
+  "author": "r2space@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SmartCircle/LightSearch/issues"
+  },
+  "homepage": "https://github.com/SmartCircle/LightSearch",
+  "dependencies": {
+    "light-framework": "0.0.1",
+    "java": "0.3.2"
+  }
+}
