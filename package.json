@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/SmartCircle/LightSearch",
   "dependencies": {
-    "light-framework": "0.0.1",
+    "light-framework": "0.0.2",
     "java": "0.3.2"
   }
 }
