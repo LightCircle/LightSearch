@@ -11,7 +11,7 @@ reports/
 cover*
 
 # 日志文件
-*/logs/*log*
+logs/*log*
 
 # 上传等临时文件
 tmp/

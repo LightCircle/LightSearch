@@ -21,6 +21,7 @@
   "homepage": "https://github.com/SmartCircle/LightSearch",
   "dependencies": {
     "light-framework": "0.0.2",
+    "mecab-async": "0.0.8",
     "java": "0.3.2"
   }
 }
