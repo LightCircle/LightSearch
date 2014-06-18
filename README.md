@@ -75,6 +75,7 @@ v {
 libmmseg 安装
 =================
 
+## for Linux
  首页: http://www.coreseek.cn/opensource/mmseg/
 
 `yum install make gcc gcc-c++ libtool autoconf automake`
@@ -93,5 +94,24 @@ libmmseg 安装
 
 `ln -s /usr/local/mmseg3/bin/mmseg /bin/mmseg3`
 
+## for Mac
 
+#### 安装编译器，依赖
+    brew install m4
+    brew install libtool
+    brew install automake
+    brew install autoconf
+    brew install autoconf-archive
 
+#### 编译 & 安装
+    cd mmseg-3.2.14
+    ./bootstrap
+    ./configure --prefix=/usr/local/mmseg3
+    make && make install
+
+ - 可能会遇到错误`/bootstrap: line 24: libtoolize: command not found，`错误 `libtoolize`应该写成`glibtoolize`。
+ - 在src/css/ThesaurusDict.h文件的 `#include <string>` 后面加入一句 `#include <ext/hash_map>`
+
+#### 参考
+http://www.qinbin.me/mac%E4%B8%AD%E5%AE%89%E8%A3%85coreseeksphinx%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D%E5%85%A8%E6%96%87%E6%A3%80%E7%B4%A2/
+http://blog.shiniv.com/2013/08/mac-install-coreseek-full-text-search/
