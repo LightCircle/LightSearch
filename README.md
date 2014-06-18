@@ -85,6 +85,8 @@ libmmseg 安装
 
 `cd mmseg-3.2.14`
 
+`./bootstrap`
+
 `./configure --prefix=/usr/local/mmseg3`
 
 `make && make install`
