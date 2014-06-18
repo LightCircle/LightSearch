@@ -76,11 +76,18 @@ libmmseg 安装
 =================
 
 `yum install make gcc gcc-c++ libtool autoconf automake`
+
 `wget http://www.coreseek.cn/uploads/csft/3.2/mmseg-3.2.14.tar.gz`
+
 `tar zxvf mmseg-3.2.14.tar.gz`
+
 `cd mmseg-3.2.14.tar.gz`
+
 `./configure --prefix=/usr/local/mmseg3`
+
 `make && make install`
+
 `ln -s /usr/local/mmseg/bin/mmseg /bin/mmseg3`
+
 
 
