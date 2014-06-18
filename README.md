@@ -72,8 +72,10 @@ v {
 }
 
 
-libmmseg 安装 [http://www.coreseek.cn/opensource/mmseg/]
+libmmseg 安装
 =================
+
+ 首页: http://www.coreseek.cn/opensource/mmseg/
 
 `yum install make gcc gcc-c++ libtool autoconf automake`
 
@@ -81,7 +83,7 @@ libmmseg 安装 [http://www.coreseek.cn/opensource/mmseg/]
 
 `tar zxvf mmseg-3.2.14.tar.gz`
 
-`cd mmseg-3.2.14.tar.gz`
+`cd mmseg-3.2.14`
 
 `./configure --prefix=/usr/local/mmseg3`
 
