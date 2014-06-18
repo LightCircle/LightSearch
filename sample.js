@@ -12,6 +12,11 @@ mmseg.loadBlacklist(function (err, blacklist) {
   mmseg.segStr(txt, function (err, result) {
     console.log(result);
     console.log("-------------------------------------");
+    mmseg.extendBlacklist(['感悟'], function (err, blacklist) {
+      mmseg.segStr(txt, function (err, result) {
+        console.log(result);
+      });
+    });
   });
 });
 //mmseg.segStr(txt, function (err, result) {
