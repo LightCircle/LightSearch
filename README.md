@@ -87,7 +87,7 @@ libmmseg 安装
 
 `make && make install`
 
-`ln -s /usr/local/mmseg/bin/mmseg /bin/mmseg3`
+`ln -s /usr/local/mmseg3/bin/mmseg /bin/mmseg3`
 
 
 
