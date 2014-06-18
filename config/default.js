@@ -14,5 +14,10 @@ module.exports = {
     , "dbname": "LawyerOnline"      /* 数据库名称 */
     , "pool": 5                     /* 连接池个数 */
     , "prefix": ""                  /* collection名的前缀 */
+  },
+  "search":{
+     "binPath":"/usr/local/mmseg3/bin/mmseg"
+    ,"dicPath":"/usr/local/mmseg3/etc"
+    ,"blacklist":"/usr/local/mmseg3/etc/blacklist.txt"
   }
 };
