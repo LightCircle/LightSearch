@@ -72,7 +72,7 @@ v {
 }
 
 
-libmmseg 安装
+libmmseg 安装 [http://www.coreseek.cn/opensource/mmseg/]
 =================
 
 `yum install make gcc gcc-c++ libtool autoconf automake`
