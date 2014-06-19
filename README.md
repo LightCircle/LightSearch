@@ -115,3 +115,10 @@ libmmseg 安装
 #### 参考
 http://www.qinbin.me/mac%E4%B8%AD%E5%AE%89%E8%A3%85coreseeksphinx%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D%E5%85%A8%E6%96%87%E6%A3%80%E7%B4%A2/
 http://blog.shiniv.com/2013/08/mac-install-coreseek-full-text-search/
+
+
+ICTCLAS 分词器安装
+=================
+
+`yum install compat-libstdc++-33.x86_64`
+
