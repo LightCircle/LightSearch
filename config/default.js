@@ -19,5 +19,6 @@ module.exports = {
      "binPath":"/usr/local/mmseg3/bin/mmseg"
     ,"dicPath":"/usr/local/mmseg3/etc"
     ,"blacklist":"/usr/local/mmseg3/etc/blacklist.txt"
+    ,"ictclas":"/opt/ictclas"
   }
 };
