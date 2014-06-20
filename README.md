@@ -122,3 +122,5 @@ ICTCLAS 分词器安装
 
 `yum install compat-libstdc++-33.x86_64`
 
+自定义词 的分类编号为 g : 如 `自定义词汇/g`
+
