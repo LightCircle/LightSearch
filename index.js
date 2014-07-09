@@ -7,6 +7,5 @@
 "use strict";
 
 module.exports = {
-
-
+  searcher: require("./lib/searcher")
 };
