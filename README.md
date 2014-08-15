@@ -124,3 +124,6 @@ ICTCLAS 分词器安装
 
 自定义词 的分类编号为 g : 如 `自定义词汇/g`
 
+`copy ictclas到 /usr/lib/ictclas`
+
+
