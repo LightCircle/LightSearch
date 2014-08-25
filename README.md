@@ -1,6 +1,5 @@
 LightSearch
-===========
-
+========
 https://github.com/hecomi/node-mecab-async
 
 mecab例子
@@ -73,7 +72,7 @@ v {
 
 
 libmmseg 安装
-=================
+========
 
 ## for Linux
  首页: http://www.coreseek.cn/opensource/mmseg/
@@ -118,12 +117,24 @@ http://blog.shiniv.com/2013/08/mac-install-coreseek-full-text-search/
 
 
 ICTCLAS 分词器安装
-=================
+========
 
+ - 步骤1: 安装依赖包（通常默认的stdc包得版本会比较高）
 `yum install compat-libstdc++-33.x86_64`
 
-自定义词 的分类编号为 g : 如 `自定义词汇/g`
-
+ - 步骤2: 拷贝词典文件到系统目录
 `copy ictclas到 /usr/lib/ictclas`
 
+ - 步骤3: 设定配置文件
+`ln -s /usr/lib/ictclas ictclas`
+
+ 要在应用程序的运行目录放置两个文件
+  - Configure.xml
+  - user.lic
+
+ 注意：Configure.xml里定义的data路径，需要指定相对路径，而不能是绝对路径
+ 所以，还要在APP根目录下创建一个到 /usr/lib/ictclas 的链接
+
+ - 其他
+ 自定义词 的分类编号为 g : 如 `自定义词汇/g`
 
