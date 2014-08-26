@@ -1,6 +1,6 @@
 {
   "name": "light-search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LightSearch",
   "main": "index.js",
   "scripts": {
