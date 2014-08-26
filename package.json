@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/SmartCircle/LightSearch",
   "dependencies": {
-    "light-framework": "0.0.2",
+    "light-framework": "0.0.6",
     "mecab-async": "0.0.8"
   }
 }
