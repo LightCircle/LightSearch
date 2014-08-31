@@ -122,10 +122,10 @@ ICTCLAS 分词器安装
  - 步骤1: 安装依赖包（通常默认的stdc包得版本会比较高）
 `yum install compat-libstdc++-33.x86_64`
 
- - 步骤2: 拷贝词典文件到系统目录
-`copy ictclas到 /usr/lib/ictclas`
+ - 步骤2: 拷贝词典文件到系统目录（在工程目录下有编译好的)
+`copy /LightSearch/ictclas到 /usr/lib/ictclas`
 
- - 步骤3: 设定配置文件
+ - 步骤3: 设定文件连接
 `ln -s /usr/lib/ictclas ictclas`
 
  要在应用程序的运行目录放置两个文件
