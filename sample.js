@@ -77,16 +77,24 @@ var searcher = require("./lib/searcher");
 console.time("searcher");
 
 //function testSearch() {
-//  searcher.add("LawyerOnline", "light.test", "539ebb9c0856a8b40639caee"
+//  searcher.add("LawyerOnline", "test", "539ebb9c0856a8b40639caee"
 //    , [["インデックス一括,ＡdA作成する.sadfとき、十分に注意する必要のある十分作成機能", 10], ["李林", 1]]
 //    , function(err, res1) {
+//
+//      console.log(err, res1);
+//
 //      console.timeEnd("searcher");
 //      process.exit(0);
 //    });
 //}
+//
+//testSearch();
+
+//code, collection, text, condition, callback
 
 //searcher.fullTextSearch("LawyerOnline", "test"
 //  , [["インデックス一括", 10], ["李林", 1]]
+//  , {}
 //  , function(err, res) {
 //    console.log(res);
 //    console.timeEnd("searcher");
@@ -95,7 +103,7 @@ console.time("searcher");
 //);
 
 searcher.similarSearch("LawyerOnline", "test"
-  , [["インデックス一括", 10], ["李林", 1]]
+  , [["インデックス一括", 10], ["李林", 1]], {}
   , function(err, res) {
     console.log(res);
     console.timeEnd("searcher");

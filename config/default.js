@@ -20,5 +20,8 @@ module.exports = {
     ,"dicPath":"/usr/local/mmseg3/etc"
     ,"blacklist":"/usr/local/mmseg3/etc/blacklist.txt"
     ,"ictclas":"/opt/ictclas"
+  },
+  "app": {
+
   }
 };
